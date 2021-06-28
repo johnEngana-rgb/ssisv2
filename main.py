@@ -23,7 +23,6 @@ class MainWin(QtWidgets.QMainWindow, Ui_AttendanceSystem):
         self.del_button()
         self.update_btn()
         self.sel_btn()
-
     def load_data(self):
         result = cursor.execute("SELECT* FROM student")
 
